@@ -1,0 +1,35 @@
+.table {
+  margin: 48px auto;
+  width: 660px;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+.thead {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.row {
+  height: 36px;
+}
+
+.th {
+  border: #000 1.5px solid;
+}
+
+.cell {
+  border: #000 1.5px solid;
+  width: calc(100% / 3);
+}
+
+.row:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.type {
+  text-transform: capitalize;
+  text-align: left;
+  padding-left: 70px;
+}
