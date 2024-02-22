@@ -29,6 +29,7 @@
 }
 
 .type {
+  composes: cell;
   text-transform: capitalize;
   text-align: left;
   padding-left: 70px;
